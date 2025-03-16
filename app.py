@@ -14,8 +14,8 @@ from gtts import gTTS
 import base64
 
 # Configure API keys
-ROBOFLOW_API_KEY = "89x32AC9lbkT8YwIeyeH"
-GEMINI_API_KEY = "AIzaSyBc9SOQ56DTARMQ8CZxRpeJg_Jh2DDUROM"  # Replace with your Gemini API key
+ROBOFLOW_API_KEY = ""
+GEMINI_API_KEY = ""  # Replace with your Gemini API key
 
 # Initialize the Roboflow client
 CLIENT = InferenceHTTPClient(
